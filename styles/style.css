@@ -1,0 +1,94 @@
+
+/*CSS reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+ol{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	/*font-size: 3rem;*/
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.h1-name{
+	font-size: 5rem;
+	text-align: center;
+}
+
+.p-description{
+	font-size: 18px;
+}
+
+.progress-title{
+	width: 100%;
+	height: auto;
+}
+
+.py-lg{
+	padding-top: 4rem; 
+}
+
+.proh{
+	height: 100%;
+}
+
+.text-color-dblue{
+	color: #104c91;
+}
+
+.text-color-tquoise{
+	color: #1f8ac0;
+}
+
+.text-color-beige{
+	color: #efc9af;
+}
+
+.bg-color-dblue{
+	background-color: #104c91;
+}
+
+.bg-color-tquoise{
+	background-color: #1f8ac0;
+}
+
+.bg-color-beige{
+	background-color: #efc9af;
+}
+
+.zoom {
+  padding: 20px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.15); 
+  /* (150% zoom - Note: if the zoom is too large, 
+  it will go outside of the viewport) */
+}
+
+
+
+
+
+
+
+
+
+
